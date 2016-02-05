@@ -1,35 +1,12 @@
-# Site Settings
-title: Hack the Burgh
-email: htb@comp-soc.com
-description: "Major League Hacking hits Edinburgh"
-baseurl: ""
-url: "http://hacktheburgh.com"
-author: "CompSoc"
+# Site settings
+title:
+email:
+description: > # this means to ignore newlines until "baseurl:"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
 
-# Main Navigation (Manual)
-navigation:
- - text: Home
-   url: /
- - text: Schedule
-   url: "#schedule"
- - text: About
-   url: "#about"
- - text: FAQ
-   url: "#faq"
- - text: "Sponsors"
-   url: "#sponsors"
- - text: Twitter Wall
-   url: "/wall"
- - text: Where is HTB?
-   url: "#map"
- - text: "Mailing List"
-   url: "https://ti.to/hacktheburgh/htb2015"
+twitter_username:
+github_username:
 
-# Build Settings
-paginate: 3
-paginate_path: "blog/page:num"
+# Build settings
 markdown: kramdown
-permalink: pretty
-
-# Gems array
-gems: [jekyll-paginate]  # add this to fix the deprecated warning on the server
